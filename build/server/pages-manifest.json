@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/contact": "pages/contact.html",
+  "/cookiepolicy": "pages/cookiepolicy.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.html",
+  "/privacypolicy": "pages/privacypolicy.html",
+  "/services/commercial": "pages/services/commercial.html",
+  "/services/residential": "pages/services/residential.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
