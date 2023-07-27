@@ -85,17 +85,20 @@ export default function Privacy() {
                   Seven Seas Power Washing LLC
                   <bdt className="block-component" />
                 </bdt>{" "}
-                (<bdt className="block-component" />"<strong>we</strong>," "
-                <strong>us</strong>," or "<strong>our</strong>"
+                (<bdt className="block-component" />
+                &quot;<strong>we</strong>,&quot; &quot;
+                <strong>us</strong>,&quot; or &quot;<strong>our</strong>&quot;
                 <bdt className="statement-end-if-in-editor" />
               </span>
               <span className={styles.body_text}>
                 ), describes how and why we might collect, store, use, and/or
-                share (<bdt className="block-component" />"
-                <strong>process</strong>"
+                share (<bdt className="block-component" />
+                &quot;
+                <strong>process</strong>&quot;
                 <bdt className="statement-end-if-in-editor" />) your information
-                when you use our services (<bdt className="block-component" />"
-                <strong>Services</strong>"
+                when you use our services (<bdt className="block-component" />
+                &quot;
+                <strong>Services</strong>&quot;
                 <bdt className="statement-end-if-in-editor" />
                 ), such as when you:
               </span>
@@ -1752,11 +1755,11 @@ export default function Privacy() {
                                                         providers, contractors,
                                                         or agents (
                                                         <bdt className="block-component" />
-                                                        "
+                                                        &quot;
                                                         <strong>
                                                           third parties
                                                         </strong>
-                                                        "
+                                                        &quot;
                                                         <bdt className="statement-end-if-in-editor" />
                                                         ) who perform services
                                                         for us or on our behalf
@@ -3543,7 +3546,7 @@ export default function Privacy() {
                                                                 provided in the
                                                                 section{" "}
                                                                 <bdt className="block-component" />
-                                                                "
+                                                                &quot;
                                                                 <bdt className="statement-end-if-in-editor" />
                                                               </span>
                                                             </span>
@@ -3604,7 +3607,7 @@ export default function Privacy() {
                                                                 }
                                                               >
                                                                 <bdt className="block-component" />
-                                                                "
+                                                                &quot;
                                                                 <bdt className="statement-end-if-in-editor" />{" "}
                                                                 below
                                                                 <bdt className="block-component" />
@@ -3920,7 +3923,7 @@ export default function Privacy() {
                                                                 include a
                                                                 Do-Not-Track (
                                                                 <bdt className="block-component" />
-                                                                "DNT"
+                                                                &quot;DNT&quot;
                                                                 <bdt className="statement-end-if-in-editor" />
                                                                 ) feature or
                                                                 setting you can
@@ -4133,7 +4136,7 @@ export default function Privacy() {
                                                                 indicated by an
                                                                 updated{" "}
                                                                 <bdt className="block-component" />
-                                                                "Revised"
+                                                                &quot;Revised&quot;
                                                                 <bdt className="statement-end-if-in-editor" />{" "}
                                                                 date and the
                                                                 updated version
@@ -4901,7 +4904,8 @@ export default function Privacy() {
                                                         }}
                                                       >
                                                         This privacy policy was
-                                                        created using Termly's{" "}
+                                                        created using
+                                                        Termly&apos;s{" "}
                                                         <a
                                                           style={{
                                                             color:
