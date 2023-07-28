@@ -14,7 +14,8 @@ import { telephone } from "@/components/callme";
 import PlaceIcon from "@mui/icons-material/Place";
 
 export default function Contact() {
-  const pagePhoto = "/photo1.jpg";
+  const pagePhoto = "/header2.jpg";
+  const pagePhotoPosition = "50% 50%";
 
   const theme = useTheme();
 
@@ -24,7 +25,11 @@ export default function Contact() {
 
   return (
     <Layout>
-      <PageBanner photo={pagePhoto} text="Contact Us" />
+      <PageBanner
+        photo={pagePhoto}
+        photoPosition={pagePhotoPosition}
+        text="Contact Us"
+      />
 
       <Box
         sx={{

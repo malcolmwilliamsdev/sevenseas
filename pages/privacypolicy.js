@@ -4,7 +4,8 @@ import PageBanner from "@/components/pagebanner";
 import Privacy from "@/components/privacy";
 
 export default function PrivacyPolicy() {
-  const pagePhoto = "/photo1.jpg";
+  const pagePhoto = "/header2.jpg";
+  const pagePhotoPosition = "50% 50%";
 
   const theme = useTheme();
   const isLargeUp = useMediaQuery(theme.breakpoints.up("lg"));
@@ -14,7 +15,11 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Layout>
-        <PageBanner photo={pagePhoto} text="Privacy Policy" />
+        <PageBanner
+          photo={pagePhoto}
+          photoPosition={pagePhotoPosition}
+          text="Privacy Policy"
+        />
 
         <Box
           sx={{

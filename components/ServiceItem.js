@@ -16,6 +16,7 @@ export default function ServiceItem({ src, title, description, lgGrid }) {
           objectFit: "cover",
           borderRadius: "15px 50px 30px",
           marginTop: "0.5em",
+          aspectRatio: "4/2.5",
         }}
       />
       <Box

@@ -10,19 +10,19 @@ export default function Residential() {
   const gridItems = [
     {
       title: "House Siding",
-      src: "/photo3.jpg",
+      src: "/wall.jpg",
       description:
         "Revitalize the exterior of your home with our professional house power washing service. Our team of skilled technicians will remove dirt, grime, and mildew buildup, restoring the beauty of your house's siding. With our eco-friendly cleaning solutions and advanced equipment, we ensure a thorough and gentle cleaning process that leaves your home looking fresh and well-maintained.",
     },
     {
       title: "Driveways",
-      src: "/photo3.jpg",
+      src: "/driveway.jpg",
       description:
         "Enhance your curb appeal and make a lasting first impression with our driveway power washing service. Over time, driveways accumulate oil stains, dirt, and weather-related debris, making them look worn-out and unappealing. Our power washing experts will eliminate these unsightly marks, revealing a pristine driveway surface. Experience a renewed and clean driveway that complements the overall aesthetics of your property.",
     },
     {
       title: "Decks",
-      src: "/photo3.jpg",
+      src: "/deck.jpg",
       description:
         "Enjoy outdoor living to the fullest with our deck power washing service. Decks are exposed to harsh weather conditions, leading to mold, algae, and grime buildup, making them slippery and hazardous. Our specialized deck cleaning techniques will refresh your deck's appearance and extend its lifespan. Whether it's wood, composite, or concrete, we'll restore your deck's natural beauty, allowing you to create lasting memories in a safe and inviting space.",
     },

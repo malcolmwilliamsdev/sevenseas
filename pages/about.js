@@ -3,9 +3,9 @@ import { useTheme, Box, Typography, useMediaQuery, Paper } from "@mui/material";
 import PageBanner from "@/components/pagebanner";
 
 export default function About() {
-  const pagePhoto = "/photo1.jpg";
-  const pagePhotoPosition = "50% 10%";
-  const ownerPhoto = "/photo5.jpg";
+  const pagePhoto = "/header2.jpg";
+  const pagePhotoPosition = "50% 50%";
+  const ownerPhoto = "/owner.jpg";
 
   const theme = useTheme();
   const isLargeUp = useMediaQuery(theme.breakpoints.up("lg"));

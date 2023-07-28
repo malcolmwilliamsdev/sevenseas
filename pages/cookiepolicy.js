@@ -4,7 +4,8 @@ import PageBanner from "@/components/pagebanner";
 import Cookie from "@/components/cookie";
 
 export default function CookiePolicy() {
-  const pagePhoto = "/photo1.jpg";
+  const pagePhoto = "/header2.jpg";
+  const pagePhotoPosition = "50% 50%";
 
   const theme = useTheme();
   const isLargeUp = useMediaQuery(theme.breakpoints.up("lg"));
@@ -14,7 +15,11 @@ export default function CookiePolicy() {
   return (
     <>
       <Layout>
-        <PageBanner photo={pagePhoto} text="Cookie Policy" />
+        <PageBanner
+          photo={pagePhoto}
+          photoPosition={pagePhotoPosition}
+          text="Cookie Policy"
+        />
 
         <Box
           sx={{

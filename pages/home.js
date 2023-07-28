@@ -2,18 +2,14 @@ import React from "react";
 import ContactForm from "@/components/contactform";
 import Layout from "@/components/layout";
 import HomeCard from "@/components/homecard";
-import {
-  Box,
-  Typography,
-  useTheme,
-  useMediaQuery,
-  Grid,
-  Paper,
-} from "@mui/material";
+import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
 
 export default function Home() {
-  const homeBGPhoto = "/header2.jpg";
-  const homeBGPhotoPosition = "25% 100%";
+  const homeBGPhoto = "/main.jpg";
+  const homeBGPhotoPosition = "50% 70%";
+  const welcomePhoto = "/welcome.jpg";
+  const chooseUsPhoto = "/chooseUs.jpg";
+
   const theme = useTheme();
 
   const isLargeUp = useMediaQuery(theme.breakpoints.up("lg"));
@@ -55,9 +51,10 @@ export default function Home() {
                 maxWidth: isMediumUp ? "75%" : "95%",
                 fontSize: "2.75em",
                 fontWeight: "500",
+                WebkitTextStroke: "1px black",
               }}
             >
-              Veteran Owned Pressure Washing Services in Albuquerque, NM
+              Veteran Owned Power Washing Services in Albuquerque, NM
             </Typography>
           </Box>
           <Box
@@ -105,14 +102,14 @@ export default function Home() {
           }}
         >
           <Typography variant="h4" align="center" color="#033b73">
-            Professional Pressure Washing
+            Professional Power Washing
           </Typography>
           <Typography variant="h5" align="center" color="#033b73">
             Albuquerque, New Mexico
           </Typography>
 
           <HomeCard
-            imgSrc="photo3.jpg"
+            imgSrc={welcomePhoto}
             title="Seven Seas Power Washing Service"
             caption={
               <>
@@ -133,7 +130,7 @@ export default function Home() {
           />
           <HomeCard
             reverse
-            imgSrc="photo3.jpg"
+            imgSrc={chooseUsPhoto}
             title="Why Choose Us?"
             caption={
               <>
@@ -183,6 +180,7 @@ export default function Home() {
               </>
             }
           />
+          {/*
           <HomeCard
             imgSrc="photo3.jpg"
             title="Residential Washing Service"
@@ -228,6 +226,7 @@ export default function Home() {
               </>
             }
           />
+           */}
         </Box>
       </Layout>
     </>

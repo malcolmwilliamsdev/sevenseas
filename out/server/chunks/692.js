@@ -95,8 +95,10 @@ function HomeCard({ imgSrc, title, caption, reverse }) {
 
 
 function Home() {
-    const homeBGPhoto = "/header2.jpg";
-    const homeBGPhotoPosition = "25% 100%";
+    const homeBGPhoto = "/main.jpg";
+    const homeBGPhotoPosition = "50% 70%";
+    const welcomePhoto = "/welcome.jpg";
+    const chooseUsPhoto = "/chooseUs.jpg";
     const theme = (0,material_.useTheme)();
     const isLargeUp = (0,material_.useMediaQuery)(theme.breakpoints.up("lg"));
     const isMediumUp = (0,material_.useMediaQuery)(theme.breakpoints.up("md")) || isLargeUp;
@@ -133,9 +135,10 @@ function Home() {
                                 sx: {
                                     maxWidth: isMediumUp ? "75%" : "95%",
                                     fontSize: "2.75em",
-                                    fontWeight: "500"
+                                    fontWeight: "500",
+                                    WebkitTextStroke: "1px black"
                                 },
-                                children: "Veteran Owned Pressure Washing Services in Albuquerque, NM"
+                                children: "Veteran Owned Power Washing Services in Albuquerque, NM"
                             })
                         }),
                         /*#__PURE__*/ (0,jsx_runtime.jsxs)(material_.Box, {
@@ -188,7 +191,7 @@ function Home() {
                             variant: "h4",
                             align: "center",
                             color: "#033b73",
-                            children: "Professional Pressure Washing"
+                            children: "Professional Power Washing"
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx(material_.Typography, {
                             variant: "h5",
@@ -197,7 +200,7 @@ function Home() {
                             children: "Albuquerque, New Mexico"
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx(HomeCard, {
-                            imgSrc: "photo3.jpg",
+                            imgSrc: welcomePhoto,
                             title: "Seven Seas Power Washing Service",
                             caption: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
                                 children: "Welcome to Seven Seas, your premier veteran-owned pressure washing business catering to both residential and commercial clients in Albuquerque, NM. With a commitment to excellence and a wealth of experience, we take pride in transforming your properties into pristine and inviting spaces. Our team of skilled professionals utilizes state-of-the-art equipment and eco-friendly practices to deliver top-notch results. Whether it's removing stubborn stains from your driveway or revitalizing the facade of your business, Seven Seas is dedicated to exceeding your expectations and ensuring customer satisfaction at every turn. Discover the power of a clean, vibrant property with Seven Seas Pressure Washing!"
@@ -205,7 +208,7 @@ function Home() {
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx(HomeCard, {
                             reverse: true,
-                            imgSrc: "photo3.jpg",
+                            imgSrc: chooseUsPhoto,
                             title: "Why Choose Us?",
                             caption: /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
                                 children: [
@@ -243,21 +246,6 @@ function Home() {
                                         children: "At Seven Seas Pressure Washing, we take pride in our work and the opportunity to serve our community. Let us unleash the true potential of your property and make it shine like never before. Choose us today for reliable, efficient, and top-notch pressure washing services that you can count on."
                                     })
                                 ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime.jsx(HomeCard, {
-                            imgSrc: "photo3.jpg",
-                            title: "Residential Washing Service",
-                            caption: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
-                                children: "At Seven Seas Pressure Washing, we take immense pride in offering top-notch residential pressure washing services that breathe new life into your home's exterior. From the siding to the roof, our skilled team ensures every surface is thoroughly cleaned, removing dirt, grime, and unsightly stains. Additionally, we specialize in rejuvenating decks and patios, transforming weather-worn wood or stained concrete into inviting spaces perfect for outdoor gatherings and relaxation. Our expertise, combined with state-of-the-art equipment and eco-friendly practices, guarantees exceptional results that enhance your home's curb appeal and overall aesthetics. Trust Seven Seas to revitalize your home and outdoor spaces, making them shine like never before."
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime.jsx(HomeCard, {
-                            reverse: true,
-                            imgSrc: "photo3.jpg",
-                            title: "Commercial Washing Service",
-                            caption: /*#__PURE__*/ jsx_runtime.jsx(jsx_runtime.Fragment, {
-                                children: "At Seven Seas Pressure Washing, we extend our expertise to cater to the unique needs of commercial clients, offering comprehensive pressure washing services that leave a lasting impression. Our team is well-equipped to handle building exteriors of all sizes, effectively removing dirt, grime, and pollutants, giving your establishment a polished and professional appearance. Moreover, we specialize in cleaning pavements, sidewalks, and parking garages, ensuring a safe and inviting environment for your customers and employees. From shopping centers to office complexes, our commercial services encompass everything needed to maintain pristine exteriors and welcoming decks/patios. With our commitment to excellence, punctuality, and attention to detail, you can trust us to elevate the image of your business, leaving it looking its best and making a positive impact on your clientele."
                             })
                         })
                     ]

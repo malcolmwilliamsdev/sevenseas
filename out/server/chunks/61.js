@@ -40,7 +40,8 @@ function ServiceItem({ src, title, description, lgGrid }) {
                     width: "100%",
                     objectFit: "cover",
                     borderRadius: "15px 50px 30px",
-                    marginTop: "0.5em"
+                    marginTop: "0.5em",
+                    aspectRatio: "4/2.5"
                 }
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_mui_material__WEBPACK_IMPORTED_MODULE_2__.Box, {
