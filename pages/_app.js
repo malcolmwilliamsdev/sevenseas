@@ -11,7 +11,7 @@ import "@fontsource/roboto/700.css";
 import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
-  const title = pageProps.title || "Seven Seas";
+  const title = pageProps.title || "Seven Seas Power Washing";
   const backgroundColor = theme.palette.background.paper;
 
   useEffect(() => {
@@ -28,6 +28,15 @@ export default function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={theme}>
       <Head>
         <title>{title}</title>
+        <meta
+          name="description"
+          content="Veteran-owned power washing business in Albuquerque, NM, offering residential and commercial services for driveways, building exteriors, and more."
+        />
+        <meta
+          name="keywords"
+          content="power washing, pressure washing, Albuquerque NM, veteran-owned, residential, commercial, driveways, building exteriors, decks, patios, pavement"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />

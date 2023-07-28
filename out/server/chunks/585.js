@@ -79,7 +79,7 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 
 
 function MyApp({ Component, pageProps }) {
-    const title = pageProps.title || "Seven Seas";
+    const title = pageProps.title || "Seven Seas Power Washing";
     const backgroundColor = theme.palette.background.paper;
     (0,external_react_.useEffect)(()=>{
         external_emailjs_com_default().init("9pV9WdgGQMs9EDN2p");
@@ -98,6 +98,14 @@ function MyApp({ Component, pageProps }) {
                 children: [
                     /*#__PURE__*/ jsx_runtime.jsx("title", {
                         children: title
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "description",
+                        content: "Veteran-owned power washing business in Albuquerque, NM, offering residential and commercial services for driveways, building exteriors, and more."
+                    }),
+                    /*#__PURE__*/ jsx_runtime.jsx("meta", {
+                        name: "keywords",
+                        content: "power washing, pressure washing, Albuquerque NM, veteran-owned, residential, commercial, driveways, building exteriors, decks, patios, pavement"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("link", {
                         rel: "icon",
